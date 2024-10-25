@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>✯Software-TI✯</title>
-    <link rel="icon" href="pq.png" type="image/png">
+    <link rel="icon" href="Imagem/pq.png" type="image/png"> <!-- Ajuste o caminho aqui -->
     <style>
         body {
             margin: 0;
@@ -73,7 +73,6 @@
             color: #000;
         }
 
-        /* Estilização do botão de play personalizado */
         .play-button {
             padding: 5px 10px;
             font-size: 20px;
@@ -91,7 +90,6 @@
             color: #00ff00;
         }
 
-        /* Centralização do vídeo */
         .video-container {
             display: flex;
             justify-content: center;
@@ -107,16 +105,14 @@
 </head>
 <body>
 
-    <!-- Botão de Play personalizado -->
     <button class="play-button" id="playButton">Play MP3</button>
 
-    <!-- Elemento de áudio -->
     <audio id="meuAudio">
-        <source src="Musica.mp3" type="audio/mpeg">
+        <source src="Musica.mp3" type="audio/mpeg"> <!-- Ajuste o caminho aqui -->
     </audio>
 
     <header>
-        <img src="c:\Users\anavi\Pictures\Projeto 1\Imagem\pq.png" alt="Ícone do Site" style="width: 50px;">
+        <img src="Imagem/pq.png" alt="Ícone do Site" style="width: 50px;">
         <h1>✯Software de Programação✯</h1>
         <nav>
             <a href="#Python">Python</a>
@@ -129,7 +125,7 @@
         <h2>Python</h2>
         <p>Python é conhecido por sua sintaxe clara e simples, tornando-o uma excelente escolha para iniciantes. 
         É versátil e pode ser usado em várias áreas, incluindo desenvolvimento web, automação, análise de dados, e aprendizado de máquina.</p>
-        <img src="01.png" alt="Python" width="500">
+        <img src="Imagem/01.png" alt="Python" width="500">
         <br>
         <p><a href="https://www.python.org/downloads/">
             <button>DOWNLOAD</button>
@@ -139,7 +135,7 @@
     <section id="Java">
         <h2>Java</h2>
         <p>Java é uma linguagem de programação orientada a objetos, famosa por sua portabilidade e segurança, permitindo que programas sejam executados em qualquer plataforma com a JVM instalada.</p>
-        <img src="c:\Users\anavi\Pictures\Projeto 1\Imagem\02.png" alt="Java" width="500">
+        <img src="Imagem/02.png" alt="Java" width="500">
         <br>
         <p><a href="https://www.java.com/pt-BR/download/manual.jsp">
             <button>DOWNLOAD</button>
@@ -149,17 +145,16 @@
     <section id="C++">
         <h2>C++</h2>
         <p>C++ é uma linguagem orientada a objetos que oferece controle de baixo nível sobre os recursos do sistema, permitindo o desenvolvimento de aplicações de alto desempenho.</p>
-        <img src="c:\Users\anavi\Pictures\Projeto 1\Imagem\03.png" alt="C++" width="500">
+        <img src="Imagem/03.png" alt="C++" width="500">
         <br>
         <p><a href="https://bloodshed.net/">
             <button>DOWNLOAD</button>
         </a></p>
     </section>
 
-    <!-- Seção de vídeo -->
     <div class="video-container">
         <video width="600" controls>
-            <source src="video.mp4" type="video/mp4">
+            <source src="video.mp4" type="video/mp4"> <!-- Ajuste o caminho aqui -->
         </video>
     </div>
 
@@ -168,7 +163,6 @@
     </footer>
 
     <script>
-        // Ativa o som quando o usuário clica no botão de play
         document.getElementById('playButton').addEventListener('click', function() {
             var audio = document.getElementById('meuAudio');
             audio.play(); // Inicia a reprodução do áudio
@@ -176,4 +170,3 @@
     </script>
 </body>
 </html>
-
